@@ -1,0 +1,31 @@
+{
+    "name": "packages/livewire-bootstrap-modal",
+    "description": "Laravel Livewire Bootstrap Modal",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Truong Huy",
+            "email": "truonghuytq@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "LivewireBootstrapModal\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LivewireBootstrapModal\\LivewireModalServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "livewire/livewire": "^2.0"
+    },
+    "require-dev": {},
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
